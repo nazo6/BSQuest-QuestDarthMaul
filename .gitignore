@@ -36,3 +36,5 @@ ndkpath.txt
 *.zip
 
 *.log
+
+extern/beatsaber-hook

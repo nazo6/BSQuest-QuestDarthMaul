@@ -7,15 +7,6 @@
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
 # Fortran module files
 *.mod
 *.smod
@@ -43,3 +34,5 @@ out/
 [Oo]bjs/
 ndkpath.txt
 *.zip
+
+*.log

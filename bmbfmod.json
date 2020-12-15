@@ -1,28 +1,40 @@
 {
-    "coverImageFilename": "Cover.png",
-    "icon": "Cover.png",
-    "id": "QuestDarthMaul",
-    "name": "QuestDarthMaul",
-    "author": "riku1227",
-    "description": [
-        "Welcome to Darth Maul Mode"
-    ],
-    "category": "Gameplay",
-    "gameVersion": "1.7.0",
-    "version": "1.0.0",
-    "links": {
-		"project-home": "https://github.com/riku1227/BSQuest-QuestDarthMaul"
-	},
-    "platform": "Quest",
-    "components": [
-        {
-            "Type": "HookMod",
-            "InstallAction": {
-                "InstallLibraryFile": "libriku1227_quest_darth_maul.so"
-            },
-            "UninstallAction": {
-                "RemoveLibraryFile": "libriku1227_quest_darth_maul.so"
-            }
-        }
-    ]
+  "coverImageFilename": "Cover.png",
+  "icon": "Cover.png",
+  "id": "QuestDarthMaul",
+  "name": "QuestDarthMaul",
+  "author": "riku1227",
+  "description": [
+    "Welcome to Darth Maul Mode"
+  ],
+  "category": "Gameplay",
+  "gameVersion": "1.13.0",
+  "version": "1.0.1",
+  "links": {
+    "project-home": "https://github.com/riku1227/BSQuest-QuestDarthMaul"
+  },
+  "platform": "Quest",
+  "components": [
+    {
+      "Type": "HookMod",
+      "InstallAction": {
+        "InstallLibraryFile": "libriku1227_quest_darth_maul.so"
+      },
+      "UninstallAction": {
+        "RemoveLibraryFile": "libriku1227_quest_darth_maul.so"
+      }
+    },
+    {
+      "type": "HookModLibrary",
+      "installAction": {
+        "installLibraryFile": "libbeatsaber-hook_0_8_4.so"
+      }
+    },
+    {
+      "type": "HookModLibrary",
+      "installAction": {
+        "installLibraryFile": "libcustom-ui_0_1_4.so"
+      }
+    }
+  ]
 }

@@ -7,4 +7,4 @@ if (-not ($PSVersionTable.PSEdition -eq "Core")) {
 }
 
 & $buildScript NDK_PROJECT_PATH=$PSScriptRoot APP_BUILD_SCRIPT=$PSScriptRoot/Android.mk NDK_APPLICATION_MK=$PSScriptRoot/Application.mk
-Compress-Archive -Path "./libs/arm64-v8a/libriku1227_quest_darth_maul.so","./bmbfmod.json" -DestinationPath "./QuestDarthMaul_v0.1.0.zip"
+Compress-Archive -Path "./libs/arm64-v8a/*.so","./bmbfmod.json" -DestinationPath "./QuestDarthMaul_v0.1.1.zip" -Force
